@@ -16,4 +16,5 @@ sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/files/bin/config_genera
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
 
 ## replace luci-theme-argon
+rm -rf package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
