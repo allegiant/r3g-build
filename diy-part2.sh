@@ -17,6 +17,8 @@ git clone --depth=1 https://github.com/fw876/helloworld package/lean/helloworld
 # Add luci-app-passwall
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
 
+git clone --depth=1 https://github.com/small-5/luci-app-adblock-plus package/luci-app-adblock-plus
+
 ## replace luci-theme-argon
 rm -rf package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
